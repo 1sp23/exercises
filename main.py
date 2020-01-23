@@ -18,3 +18,10 @@ print('Привет, Python!\n''Hello, Python!\n''Bonjour Python!\n''Hej, Python
 print('Как Вас зовут?')
 s = input()
 print('Здравствуйте, ' + s)
+
+print('Как Вас зовут?')
+s = input()
+print('Здравствуйте, ' + s)
+print('Что Вам нравится? ')
+k = input()
+print('Отлично! ' + k + '  - хорошее увлечение.')
