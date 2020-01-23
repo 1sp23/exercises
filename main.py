@@ -25,3 +25,12 @@ print('Здравствуйте, ' + s)
 print('Что Вам нравится? ')
 k = input()
 print('Отлично! ' + k + '  - хорошее увлечение.')
+
+
+print('Login: ')
+login = input()
+print('Password: ')
+password = input()
+print('New password: ')
+np = input()
+print('User {0} has changed the password to {1}'.format(login, np))
