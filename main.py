@@ -44,4 +44,10 @@ pl = ['Ace Of Base - All That She Wants',
 for song in reversed(pl):
       print(song, end='\n')
 
-
+nr = input()
+nrus = input()
+neng = input()
+tdrus = input()
+tdeng = input()
+print('Заканчивается посадка на рейс {0} {1} до {2} '.format(nr, nrus, tdrus))
+print('This is the final boarding call for {0} flight {1} to {2}'.format(neng, nr, tdeng))
