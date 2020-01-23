@@ -14,3 +14,7 @@ print('(=\'.\'=)')
 print('(\")_(\")')
 
 print('Привет, Python!\n''Hello, Python!\n''Bonjour Python!\n''Hej, Python!\n''Hola, Python!')
+
+print('Как Вас зовут?')
+s = input()
+print('Здравствуйте, ' + s)
