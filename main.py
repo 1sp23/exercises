@@ -34,3 +34,14 @@ password = input()
 print('New password: ')
 np = input()
 print('User {0} has changed the password to {1}'.format(login, np))
+
+pl = ['Ace Of Base - All That She Wants',
+      'No Doubt - Dont Speak',
+      'Bad Boys Blue - You\'re A Woman',
+      'E-Type - Angels Crying',
+      'Haddaway - What Is Love']
+
+for song in reversed(pl):
+      print(song, end='\n')
+
+
